@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:incubator_app/login_screen.dart';
+import 'package:incubator_app/registration_screen.dart';
+
 void main() => runApp(FlashChat());
 
 class FlashChat extends StatelessWidget {
@@ -16,7 +18,7 @@ class FlashChat extends StatelessWidget {
         //'welcome_screen': (context)=> WelcomeScreen(),
         //'chat_screen': (context)=> ChatScreen(),
         'login_screen':(context)=> LoginScreen(),
-        //'registration_screen': (context)=> RegistrationScreen(),
+        'registration_screen': (context)=> RegistrationScreen(),
       },
       // home: WelcomeScreen(),
     );
